@@ -1,0 +1,13 @@
+<div class="row">
+			<div class="col-md-6">
+				<div class="col-md-12">
+				<h1>About Techmart'16</h1>
+				<p style="max-width:500px; text-align:justify"><?php echo file_get_contents('includes/about-techmart.txt'); ?>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-12">
+					<div style="max-width:300px; border:solid lightblue;border-width:0px 2px 3px 0px;"><h4>News&Notice</h4></div>
+				</div>
+			</div>
+		</div>

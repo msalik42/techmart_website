@@ -1,0 +1,57 @@
+#chat-form{
+	float:left;
+}
+#chat-form[name=chat]{
+	width:70%;
+}
+#data {
+	margin-top:auto;
+    height: 400px;
+    overflow:auto;
+	margin:0px;
+	padding-right:20px;
+	}
+	@media only screen and (max-width: 500px){
+		#friend_list{
+			display:none;
+			font-size:20px;
+		}
+	}
+	#left{
+		background-color:red;
+		border-radius:30px;
+		right:0px;
+		max-width:150px;
+		padding-left:10px;
+		padding-right:10px;
+	
+	}
+	#right{
+		background-color:blue;
+		border-radius:30px;
+		float:right;
+		max-width:150px;
+		padding-left:10px;
+		padding-right:10px;
+		
+	}
+	#body{
+		margin:0;
+	}
+	#chat{
+		width:80%;
+		height:40px;
+		border-radius:40px;
+		padding-left:30px;
+	}
+	#chat_form{
+		bottom:0px;
+	}
+	#submit{
+		width:40px;
+		height:40px;
+		border-radius:40px;
+		background-color:red;
+		font-size:30px;
+		padding:auto;
+	}
